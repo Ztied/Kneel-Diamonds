@@ -1,0 +1,27 @@
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+.choices__metals {
+    padding-right: 30px;
+}
+
+.choices__sizes {
+    padding-right: 50px;
+}
+
+.choices__styles, .choices__sizes, .choices__metals {
+ border: dotted blue;
+ border-radius: 5%;
+ margin: 30px; 
+ box-shadow: 10px 10px 5px lightgray;
+ 
+}
+
+.choices__styles:hover, .choices__sizes:hover, .choices__metals:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+cursor: pointer;
+
+}
